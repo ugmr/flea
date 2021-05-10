@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "ws": "nodemon ./bin/ws",
+    "dev": "NODE_ENV=development nodemon ./bin/www "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "global": "^4.4.0",
+    "mongoose": "^5.11.11",
+    "pm2": "^4.5.6",
+    "qiniu": "^7.3.2",
+    "redis": "^3.0.2",
+    "socket.io": "^4.0.1",
+    "vuelidate": "^0.7.6"
+  },
+  "devDependencies": {
+    "@alicloud/pop-core": "^1.7.10",
+    "jsonwebtoken": "^8.5.1",
+    "log4js": "^6.3.0",
+    "nodemon": "^2.0.7"
+  }
+}

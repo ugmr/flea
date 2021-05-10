@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+const http = require('http');
+const createSocket = require("../socket")
+const logger =  require('../libs/log4j')('app');
+
+const wsPost = 3001
+
+// 创建WS服务器
+const socketServer = http.createServer()
+createSocket(socketServer)
+socketServer.listen(wsPost, () => {
+    logger.info("websocket start at port: " + wsPost)
+})

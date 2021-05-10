@@ -1,0 +1,39 @@
+#!/usr/bin/env node
+const app = require("../app");
+const http = require("http");
+const init = require("../middleware/init");
+const logger = require("../libs/log4j")("app");
+
+(async function (global) {
+  try {
+    // 初始化数据
+    await init();
+    // 端口号
+    const port = normalizePort(process.env.PORT || "3000");
+
+    // 创建服务器
+    const server = http.createServer(app);
+    server.listen(port, () => {
+      logger.info("server start at port:" + port);
+    });
+  } catch (e) {
+    logger.error("server start error: " + e);
+  }
+})(global);
+
+// util
+function normalizePort(val) {
+  const port = parseInt(val, 10);
+
+  if (isNaN(port)) {
+    // named pipe
+    return val;
+  }
+
+  if (port >= 0) {
+    // port number
+    return port;
+  }
+
+  return false;
+}

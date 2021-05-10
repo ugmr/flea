@@ -1,0 +1,415 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+	    {
+            "path" : "pages/home/home",
+            "style" : {
+                "navigationBarTitleText": "首页",
+                "navigationBarTextStyle":"black",
+				"enablePullDownRefresh": false,
+                "h5": {
+					"titleNView": false
+				},
+				"app-plus": {
+					"titleNView": false
+				}
+            }
+        }
+        ,{
+            "path" : "pages/topic/topic",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "话题",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/message/message",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+                "app-plus": {"titleNView": false}   
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods/publish",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜索",
+                "enablePullDownRefresh": false,
+				"h5": {
+					"titleNView": false
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/searchResult",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false,
+				"navigationBarTitleText": "搜索结果"
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods/goods",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false,
+				"navigationBarTitleText": "商品详情"
+            }
+            
+        }
+        ,{
+            "path" : "pages/log/login",
+            "style" :                                                                                    
+            {
+				"navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/location",
+            "style" :                                                                                    
+            {
+				"navigationBarTitleText": "所在地",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/sort",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品分类",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/log/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        },{
+            "path" : "pages/log/forget",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/collect",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "收藏列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/focus",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关注列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/follow",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "粉丝列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/setting/setting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/setting/profile",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的资料",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/delivery/delivery",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "收货地址",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/buy/buy",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "购买商品",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/delivery/addAndEdit",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加/编辑收货地址",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/setting/accont/accont",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "账号",
+                "enablePullDownRefresh": false
+            }
+        },
+		{
+		    "path" : "pages/setting/accont/password",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "修改密码",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+		    "path" : "pages/setting/accont/signoff",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "注销账号",
+		        "enablePullDownRefresh": false
+		    }
+		}
+        ,{
+            "path" : "pages/userInfo/userInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/publish",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我发布的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/buy/delivery",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/topic/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "话题详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/topic/post/post",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "帖子详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/topic/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/topic/post/add",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/topic",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的话题",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/post",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的帖子",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/buy/pay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationStyle": "custom"
+            }
+        }
+        ,{
+            "path" : "pages/my/buy",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我买到的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/sell",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我卖出的",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/order/logistic",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "物流信息",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/order/evaluation",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "评价详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/message/chat",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+        },
+        {
+            "path" : "pages/buy/success",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path" : "pages/message/notice",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "系统通知",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path" : "pages/order/addEvaluation",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "评价",
+                "enablePullDownRefresh": false
+            }
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#f8f8f8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"list": [
+			{ "pagePath": "pages/home/home" },
+			{ "pagePath": "pages/topic/topic" },
+			{ "pagePath": "pages/message/message" },
+			{ "pagePath": "pages/my/my" }
+		]
+	}
+}
